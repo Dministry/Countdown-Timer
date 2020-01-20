@@ -1,0 +1,31 @@
+body{
+    background: #f6f6f6;
+}
+.countdownContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #ccc;
+    border-radius: 30px;
+}
+    .info {
+        font-size: 80px;
+        font-family: fantasy;
+    }
+    #seconds{
+        color: red;
+    }
+    img{
+        margin-left: 400px;
+    }
+    #name{
+        margin-left:500px;
+        font-size: 50px;
+        margin-top: -5px;
+        font-family: helvetica;
+        font-weight: 900;
+    }
